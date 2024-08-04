@@ -1,24 +1,24 @@
 ## WAP to check if a number entered by the user is odd or even
 
 n = int(input("Enter your No : "))
-rem = n % 2
-if (rem == 0):
+
+if (n%2 == 0):
     print("the number is even Number")
 else :
     print("The number is odd number")
 
 
-# ## WAP to find the greatest of 3 numbers entered by the user
+# # ## WAP to find the greatest of 3 numbers entered by the user
 
-a = int(input("Enter First number : "))
-b = int(input("Enter seconed number : "))
-c = int(input("Enter third number : "))
-if a > b :
-    print("The  First number",a, " is gratest number")
-elif a < b and b > c :
-    print("The seconed number",b,"is gratest number")
-else :
-    print("The third number",c, "is gratest number")
+# a = int(input("Enter First number : "))
+# b = int(input("Enter seconed number : "))
+# c = int(input("Enter third number : "))
+# if a > b :
+#     print("The  First number",a, " is gratest number")
+# elif a < b and b > c :
+#     print("The seconed number",b,"is gratest number")
+# else :
+#     print("The third number",c, "is gratest number")
 
 
 

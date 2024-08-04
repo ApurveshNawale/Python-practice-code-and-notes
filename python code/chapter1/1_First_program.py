@@ -1,3 +1,5 @@
-n = 10
-num = n % 2
-print(num)
+n = int(input("enter"))
+if (n%2 != 0):
+    print("odd")
+else:
+    print("e")
