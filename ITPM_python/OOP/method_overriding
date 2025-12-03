@@ -1,0 +1,17 @@
+class Principle:
+    def emp(self):
+        print("Principle is Employee of College")
+
+    def emp_type(self):
+        print("Principle is Full-Time Emp")
+
+class Hod(Principle):
+    def emp(self):
+        print("Hod is Employee of College")
+
+    def emp_type(self):
+        print("Hod is Full-Time Emp")
+
+all_data = Hod()
+print(all_data.emp())
+print(all_data.emp_type())
